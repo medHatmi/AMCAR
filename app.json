@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "28º Congrès AMCAR",
+    "slug": "28CongresAMCAR",
+    "version": "2.0.3",
+    "orientation": "portrait",
+    "icon": "./Assets/Img/Icon.png",
+    "splash": {
+      "resizeMode": "contain",
+      "image": "./Assets/Img/Affiche.png",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "ma.amcar.congres28",
+      "buildNumber": "2.0.3",
+      "supportsTablet" : false  
+    },
+    "android": {
+      "package": "ma.amcar.amcarjn28",
+      "versionCode": 3, 
+      "adaptiveIcon": {
+        "foregroundImage": "./Assets/Img/Icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./Assets/Img/Icon.png"
+    }
+  }
+}
